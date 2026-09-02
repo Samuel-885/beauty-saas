@@ -15,6 +15,7 @@ beauty-saas/
 ├── apps/       # Aplicações do produto
 ├── packages/   # Pacotes compartilhados
 ├── docs/       # Documentação do projeto
+├── AGENTS.md
 ├── .editorconfig
 ├── .gitignore
 ├── .npmrc
@@ -23,7 +24,7 @@ beauty-saas/
 └── README.md
 ```
 
-As pastas `apps`, `packages` e `docs` contêm arquivos `.gitkeep` enquanto ainda não possuem conteúdo próprio.
+As pastas `apps` e `packages` contêm arquivos `.gitkeep` enquanto ainda não possuem conteúdo próprio. A pasta `docs` contém a documentação oficial do projeto, referenciada pelo `AGENTS.md`.
 
 ## Requisitos locais identificados
 
@@ -32,7 +33,7 @@ As pastas `apps`, `packages` e `docs` contêm arquivos `.gitkeep` enquanto ainda
 - Corepack 0.28.2
 - pnpm 9.15.9 (versão adotada e validada)
 
-O comando `pnpm` não estava disponível diretamente no `PATH`. A versão 9.15.9 foi executada e validada por meio de um Corepack temporário atualizado, sem instalação global.
+O pnpm 9.15.9 foi disponibilizado por meio do Corepack, sem instalação global manual, e está acessível pelo comando `pnpm`.
 
 ## Instalação provisória
 
@@ -50,4 +51,4 @@ Nunca versione arquivos `.env`. Quando exemplos forem necessários, use arquivos
 
 ## Status atual
 
-A fundação do repositório está sendo configurada. Ainda não há aplicações, banco de dados, autenticação, componentes visuais ou regras de negócio implementados.
+A fundação inicial do repositório está concluída, e a documentação oficial foi criada e revisada. Ainda não há aplicações, banco de dados, autenticação, componentes visuais, regras de negócio ou outras funcionalidades implementadas.
