@@ -1,0 +1,17 @@
+{
+  "name": "beauty-saas",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Plataforma SaaS multiempresa para gestão de salões de beleza.",
+  "packageManager": "pnpm@9.15.9",
+  "scripts": {
+    "dev": "pnpm -r --parallel --if-present dev",
+    "build": "pnpm -r --if-present build",
+    "lint": "pnpm -r --if-present lint",
+    "typecheck": "pnpm -r --if-present typecheck",
+    "test": "pnpm -r --if-present test",
+    "format": "pnpm -r --if-present format",
+    "format:check": "pnpm -r --if-present format:check"
+  }
+}
+
