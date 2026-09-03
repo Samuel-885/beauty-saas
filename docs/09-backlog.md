@@ -363,7 +363,7 @@ Status geral: **pendente**.
 | --- | --- |
 | Criação do repositório | Concluída |
 | Criação do monorepo base | Concluída |
-| Next.js | Pendente |
+| Next.js | Concluída |
 | NestJS | Pendente |
 | Health check | Pendente |
 | TypeScript compartilhado | Pendente |

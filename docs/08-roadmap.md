@@ -14,7 +14,7 @@
 
 Preparar repositório, monorepo, documentação, aplicações base, configurações compartilhadas, scripts e integração contínua.
 
-O repositório e o monorepo base estão concluídos. Aplicações e demais configurações técnicas continuam pendentes ou em andamento conforme o backlog.
+O repositório, o monorepo base, a documentação e a aplicação frontend Next.js estão concluídos. O backend e as demais configurações técnicas da fundação continuam pendentes ou em andamento conforme o backlog.
 
 ### 2. Banco e Supabase — pendente
 

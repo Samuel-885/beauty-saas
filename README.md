@@ -51,4 +51,4 @@ Nunca versione arquivos `.env`. Quando exemplos forem necessários, use arquivos
 
 ## Status atual
 
-A fundação inicial do repositório está concluída, e a documentação oficial foi criada e revisada. Ainda não há aplicações, banco de dados, autenticação, componentes visuais, regras de negócio ou outras funcionalidades implementadas.
+A fundação inicial do repositório e a documentação oficial estão concluídas. A aplicação frontend inicial foi criada com Next.js. Ainda não há backend, banco de dados, autenticação ou funcionalidades de negócio implementadas.
