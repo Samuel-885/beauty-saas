@@ -13,6 +13,8 @@ Estabelecer uma base para centralizar a operação essencial de múltiplos salõ
 ```text
 beauty-saas/
 ├── apps/       # Aplicações do produto
+│   ├── web/    # Frontend Next.js
+│   └── api/    # Backend NestJS
 ├── packages/   # Pacotes compartilhados
 ├── docs/       # Documentação do projeto
 ├── AGENTS.md
@@ -24,7 +26,7 @@ beauty-saas/
 └── README.md
 ```
 
-As pastas `apps` e `packages` contêm arquivos `.gitkeep` enquanto ainda não possuem conteúdo próprio. A pasta `docs` contém a documentação oficial do projeto, referenciada pelo `AGENTS.md`.
+A pasta `apps` contém as aplicações iniciais `web` e `api`. A pasta `packages` mantém um arquivo `.gitkeep` enquanto ainda não possui pacotes reais. A pasta `docs` contém a documentação oficial do projeto, referenciada pelo `AGENTS.md`.
 
 ## Requisitos locais identificados
 
@@ -37,13 +39,13 @@ O pnpm 9.15.9 foi disponibilizado por meio do Corepack, sem instalação global 
 
 ## Instalação provisória
 
-Quando houver pacotes ou dependências no workspace e o pnpm 9.15.9 estiver disponível, execute na raiz:
+O workspace possui dependências de frontend e backend. Para instalá-las, execute na raiz:
 
 ```bash
 pnpm install
 ```
 
-Neste momento, nenhuma dependência foi adicionada ou instalada.
+O monorepo utiliza o arquivo `pnpm-lock.yaml` compartilhado da raiz.
 
 ## Variáveis de ambiente
 
@@ -51,4 +53,4 @@ Nunca versione arquivos `.env`. Quando exemplos forem necessários, use arquivos
 
 ## Status atual
 
-A fundação inicial do repositório e a documentação oficial estão concluídas. A aplicação frontend inicial foi criada com Next.js. Ainda não há backend, banco de dados, autenticação ou funcionalidades de negócio implementadas.
+A fundação inicial do repositório e a documentação oficial estão concluídas. As aplicações iniciais de frontend com Next.js e backend com NestJS foram criadas. Banco de dados, autenticação e funcionalidades de negócio ainda não foram implementados.
