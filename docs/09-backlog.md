@@ -364,7 +364,7 @@ Status geral: **pendente**.
 | Criação do repositório | Concluída |
 | Criação do monorepo base | Concluída |
 | Next.js | Concluída |
-| NestJS | Pendente |
+| NestJS | Concluída |
 | Health check | Pendente |
 | TypeScript compartilhado | Pendente |
 | ESLint/Prettier | Pendente |
