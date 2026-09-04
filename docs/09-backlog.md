@@ -365,7 +365,7 @@ Status geral: **pendente**.
 | Criação do monorepo base | Concluída |
 | Next.js | Concluída |
 | NestJS | Concluída |
-| Health check | Pendente |
+| Health check | Concluída |
 | TypeScript compartilhado | Pendente |
 | ESLint/Prettier | Pendente |
 | Variáveis de ambiente | Pendente |

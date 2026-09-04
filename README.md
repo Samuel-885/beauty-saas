@@ -54,3 +54,11 @@ Nunca versione arquivos `.env`. Quando exemplos forem necessários, use arquivos
 ## Status atual
 
 A fundação inicial do repositório e a documentação oficial estão concluídas. As aplicações iniciais de frontend com Next.js e backend com NestJS foram criadas. Banco de dados, autenticação e funcionalidades de negócio ainda não foram implementados.
+
+A API possui o endpoint básico `GET /health`, que retorna:
+
+```json
+{
+  "status": "ok"
+}
+```
