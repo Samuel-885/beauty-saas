@@ -16,7 +16,9 @@ beauty-saas/
 │   ├── web/    # Frontend Next.js
 │   └── api/    # Backend NestJS
 ├── packages/                    # Pacotes compartilhados
-│   └── typescript-config/       # Configurações TypeScript compartilhadas
+│   ├── typescript-config/       # Configurações TypeScript compartilhadas
+│   ├── eslint-config/           # Configuração ESLint compartilhada
+│   └── prettier-config/         # Configuração Prettier compartilhada
 ├── docs/       # Documentação do projeto
 ├── AGENTS.md
 ├── .editorconfig
@@ -27,7 +29,7 @@ beauty-saas/
 └── README.md
 ```
 
-A pasta `apps` contém as aplicações iniciais `web` e `api`. A pasta `packages` contém o pacote `typescript-config`, com configurações TypeScript compartilhadas utilizadas pelas duas aplicações. A pasta `docs` contém a documentação oficial do projeto, referenciada pelo `AGENTS.md`.
+A pasta `apps` contém as aplicações iniciais `web` e `api`. A pasta `packages` contém configurações compartilhadas de TypeScript, ESLint e Prettier utilizadas pelas duas aplicações. A pasta `docs` contém a documentação oficial do projeto, referenciada pelo `AGENTS.md`.
 
 ## Requisitos locais identificados
 
@@ -54,7 +56,7 @@ Nunca versione arquivos `.env`. Quando exemplos forem necessários, use arquivos
 
 ## Status atual
 
-A fundação inicial do repositório e a documentação oficial estão concluídas. As aplicações iniciais de frontend com Next.js e backend com NestJS foram criadas e utilizam a configuração TypeScript compartilhada do monorepo. Banco de dados, autenticação e funcionalidades de negócio ainda não foram implementados.
+A fundação inicial do repositório e a documentação oficial estão concluídas. As aplicações iniciais de frontend com Next.js e backend com NestJS foram criadas e utilizam configurações compartilhadas de TypeScript, ESLint e Prettier. Banco de dados, autenticação e funcionalidades de negócio ainda não foram implementados.
 
 A API possui o endpoint básico `GET /health`, que retorna:
 

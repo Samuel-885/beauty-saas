@@ -1,0 +1,14 @@
+{
+  "name": "@beauty-saas/eslint-config",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Configuração ESLint comum do Beauty SaaS.",
+  "exports": "./index.js",
+  "dependencies": {
+    "eslint-config-prettier": "10.1.8"
+  },
+  "peerDependencies": {
+    "eslint": "^9.18.0"
+  }
+}
