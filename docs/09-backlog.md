@@ -366,7 +366,7 @@ Status geral: **pendente**.
 | Next.js | Concluída |
 | NestJS | Concluída |
 | Health check | Concluída |
-| TypeScript compartilhado | Pendente |
+| TypeScript compartilhado | Concluída |
 | ESLint/Prettier | Pendente |
 | Variáveis de ambiente | Pendente |
 | Packages compartilhados | Pendente |
