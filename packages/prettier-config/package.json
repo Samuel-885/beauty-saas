@@ -1,0 +1,11 @@
+{
+  "name": "@beauty-saas/prettier-config",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Configuração Prettier compartilhada do Beauty SaaS.",
+  "exports": "./index.json",
+  "main": "./index.json",
+  "peerDependencies": {
+    "prettier": ">=3.0.0 <4.0.0"
+  }
+}

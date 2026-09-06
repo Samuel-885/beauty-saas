@@ -367,9 +367,9 @@ Status geral: **pendente**.
 | NestJS | Concluída |
 | Health check | Concluída |
 | TypeScript compartilhado | Concluída |
-| ESLint/Prettier | Pendente |
+| ESLint/Prettier | Concluída |
 | Variáveis de ambiente | Pendente |
-| Packages compartilhados | Pendente |
+| Packages compartilhados | Parcialmente preparados |
 | Scripts da raiz | Parcialmente preparados |
 | CI | Pendente |
 | AGENTS.md/documentação | Concluída |

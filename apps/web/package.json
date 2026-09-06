@@ -2,12 +2,15 @@
   "name": "@beauty-saas/web",
   "version": "0.1.0",
   "private": true,
+  "prettier": "@beauty-saas/prettier-config",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "format": "prettier --write \"src/**/*.{ts,tsx,css}\"",
+    "format:check": "prettier --check \"src/**/*.{ts,tsx,css}\""
   },
   "dependencies": {
     "next": "16.3.4",
@@ -15,6 +18,8 @@
     "react-dom": "19.2.8"
   },
   "devDependencies": {
+    "@beauty-saas/eslint-config": "workspace:*",
+    "@beauty-saas/prettier-config": "workspace:*",
     "@beauty-saas/typescript-config": "workspace:*",
     "@tailwindcss/postcss": "^4",
     "@types/node": "^20",
@@ -22,6 +27,7 @@
     "@types/react-dom": "^19",
     "eslint": "^9",
     "eslint-config-next": "16.3.4",
+    "prettier": "3.9.6",
     "tailwindcss": "^4",
     "typescript": "^5"
   }

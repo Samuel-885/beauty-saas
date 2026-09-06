@@ -8,6 +8,7 @@
   "scripts": {
     "build": "nest build",
     "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
+    "format:check": "prettier --check \"src/**/*.ts\" \"test/**/*.ts\"",
     "start": "nest start",
     "dev": "nest start --watch",
     "start:debug": "nest start --debug --watch",
@@ -28,6 +29,8 @@
     "rxjs": "^7.8.1"
   },
   "devDependencies": {
+    "@beauty-saas/eslint-config": "workspace:*",
+    "@beauty-saas/prettier-config": "workspace:*",
     "@beauty-saas/typescript-config": "workspace:*",
     "@eslint/eslintrc": "^3.2.0",
     "@eslint/js": "^9.18.0",
