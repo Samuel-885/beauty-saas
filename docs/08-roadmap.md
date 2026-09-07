@@ -14,7 +14,7 @@
 
 Preparar repositório, monorepo, documentação, aplicações base, configurações compartilhadas, scripts e integração contínua.
 
-O repositório, o monorepo base e a documentação estão concluídos. As aplicações iniciais de frontend com Next.js e backend com NestJS foram inicializadas, e o health check básico da API e as configurações compartilhadas de TypeScript, ESLint e Prettier também estão concluídos. As demais configurações técnicas da fundação continuam pendentes ou em andamento conforme o backlog.
+O repositório, o monorepo base e a documentação estão concluídos. As aplicações iniciais de frontend com Next.js e backend com NestJS foram inicializadas, e o health check básico da API, as configurações compartilhadas de TypeScript, ESLint e Prettier e a estratégia inicial de variáveis de ambiente também estão concluídos. As demais configurações técnicas da fundação continuam pendentes ou em andamento conforme o backlog.
 
 ### 2. Banco e Supabase — pendente
 
