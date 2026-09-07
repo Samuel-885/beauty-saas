@@ -370,7 +370,7 @@ Status geral: **pendente**.
 | ESLint/Prettier | Concluída |
 | Variáveis de ambiente | Concluída |
 | Packages compartilhados | Parcialmente preparados |
-| Scripts da raiz | Parcialmente preparados |
+| Scripts da raiz | Concluída |
 | CI | Pendente |
 | AGENTS.md/documentação | Concluída |
 
