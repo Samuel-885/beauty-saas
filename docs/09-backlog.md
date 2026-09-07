@@ -368,7 +368,7 @@ Status geral: **pendente**.
 | Health check | Concluída |
 | TypeScript compartilhado | Concluída |
 | ESLint/Prettier | Concluída |
-| Variáveis de ambiente | Pendente |
+| Variáveis de ambiente | Concluída |
 | Packages compartilhados | Parcialmente preparados |
 | Scripts da raiz | Parcialmente preparados |
 | CI | Pendente |

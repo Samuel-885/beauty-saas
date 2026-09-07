@@ -52,11 +52,17 @@ O monorepo utiliza o arquivo `pnpm-lock.yaml` compartilhado da raiz.
 
 ## Variáveis de ambiente
 
-Nunca versione arquivos `.env`. Quando exemplos forem necessários, use arquivos `.env.example` sem segredos ou credenciais.
+Os exemplos versionáveis ficam em `apps/web/.env.example` e `apps/api/.env.example`. Quando uma aplicação exigir valores locais, copie o exemplo correspondente para um arquivo como `.env.local` e preencha-o somente no ambiente local.
+
+Variáveis do frontend que realmente precisem chegar ao navegador devem usar o prefixo `NEXT_PUBLIC_` e nunca podem conter segredos. Credenciais e demais valores privados pertencem somente à API e não devem usar esse prefixo.
+
+Atualmente, o web não exige variáveis de ambiente. A API aceita `PORT` pelo ambiente do processo e usa `3001` como fallback. Como ainda não há carregador de arquivos `.env` na API, `PORT` deve ser fornecida ao processo quando for necessário substituir esse padrão.
+
+Nunca versione arquivos `.env`, `.env.local` ou outras variações reais. Os arquivos `.env.example` devem conter apenas nomes e valores seguros de exemplo, sem segredos ou credenciais.
 
 ## Status atual
 
-A fundação inicial do repositório e a documentação oficial estão concluídas. As aplicações iniciais de frontend com Next.js e backend com NestJS foram criadas e utilizam configurações compartilhadas de TypeScript, ESLint e Prettier. Banco de dados, autenticação e funcionalidades de negócio ainda não foram implementados.
+A fundação inicial do repositório e a documentação oficial estão concluídas. As aplicações iniciais de frontend com Next.js e backend com NestJS foram criadas, utilizam configurações compartilhadas de TypeScript, ESLint e Prettier e possuem uma estratégia inicial para variáveis de ambiente. Banco de dados, autenticação e funcionalidades de negócio ainda não foram implementados.
 
 A API possui o endpoint básico `GET /health`, que retorna:
 
