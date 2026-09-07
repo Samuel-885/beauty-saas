@@ -50,6 +50,20 @@ pnpm install
 
 O monorepo utiliza o arquivo `pnpm-lock.yaml` compartilhado da raiz.
 
+## Comandos da raiz
+
+Os comandos principais do monorepo devem ser executados na raiz:
+
+- `pnpm dev`: inicia web e API em paralelo;
+- `pnpm build`: gera os builds das aplicações;
+- `pnpm lint`: executa o lint dos workspaces aplicáveis;
+- `pnpm format:check`: verifica a formatação sem alterar arquivos;
+- `pnpm typecheck`: verifica os tipos das aplicações;
+- `pnpm test`: executa os testes unitários existentes;
+- `pnpm test:e2e`: executa testes e2e somente nos workspaces que os possuem;
+- `pnpm format`: aplica formatação explicitamente;
+- `pnpm check`: executa, em sequência, todas as verificações de qualidade e o build.
+
 ## Variáveis de ambiente
 
 Os exemplos versionáveis ficam em `apps/web/.env.example` e `apps/api/.env.example`. Quando uma aplicação exigir valores locais, copie o exemplo correspondente para um arquivo como `.env.local` e preencha-o somente no ambiente local.
@@ -62,7 +76,7 @@ Nunca versione arquivos `.env`, `.env.local` ou outras variações reais. Os arq
 
 ## Status atual
 
-A fundação inicial do repositório e a documentação oficial estão concluídas. As aplicações iniciais de frontend com Next.js e backend com NestJS foram criadas, utilizam configurações compartilhadas de TypeScript, ESLint e Prettier e possuem uma estratégia inicial para variáveis de ambiente. Banco de dados, autenticação e funcionalidades de negócio ainda não foram implementados.
+A fundação inicial do repositório e a documentação oficial estão concluídas. As aplicações iniciais de frontend com Next.js e backend com NestJS foram criadas, utilizam configurações compartilhadas de TypeScript, ESLint e Prettier, possuem uma estratégia inicial para variáveis de ambiente e podem ser operadas pelos scripts da raiz. Banco de dados, autenticação e funcionalidades de negócio ainda não foram implementados.
 
 A API possui o endpoint básico `GET /health`, que retorna:
 
